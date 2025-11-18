@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { removeItem, updateQuantity } from './CartSlice';
+import { removeItem, updateQuantity, addItem } from './CartSlice';
 import './CartItem.css';
 
 const CartItem = ({ onContinueShopping, setAddedToCart }) => {
@@ -24,12 +24,17 @@ const CartItem = ({ onContinueShopping, setAddedToCart }) => {
   };
 
   const handleIncrement = (item) => {
-    dispatch(
-      updateQuantity({  
-      name: item.name,
-      quantity: item.quantity + 1,
-      })
-    );
+    // If for some reason the item doesn't have a quantity, add it to the cart first.
+    if (item.quantity == null) {
+      dispatch(addItem(item));
+    } else {
+      dispatch(
+        updateQuantity({
+          name: item.name,
+          quantity: item.quantity + 1,
+        })
+      );
+    }
   };
 
   const handleDecrement = (item) => {
