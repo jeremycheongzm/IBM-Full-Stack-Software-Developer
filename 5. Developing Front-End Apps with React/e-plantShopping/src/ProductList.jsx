@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { addItem } from './CartSlice.jsx';
 import './ProductList.css'
 import CartItem from './CartItem';
@@ -257,6 +257,7 @@ function ProductList({ onHomeClick }) {
     };
 
     const dispatch = useDispatch(); 
+    const cartItems = useSelector(state => state.cart.items);
 
     const handleAddToCart = (plant) => {
         dispatch(addItem(plant));
@@ -266,6 +267,7 @@ function ProductList({ onHomeClick }) {
             [plant.name]: true,
         }));
     };
+
     return (
         <div>
             <div className="navbar" style={styleObj}>
@@ -320,7 +322,7 @@ function ProductList({ onHomeClick }) {
 
                 </div>
             ) : (
-                <CartItem onContinueShopping={handleContinueShopping}/>
+                <CartItem onContinueShopping={handleContinueShopping} setAddedToCart={setAddedToCart} />
             )}
         </div>
     );
