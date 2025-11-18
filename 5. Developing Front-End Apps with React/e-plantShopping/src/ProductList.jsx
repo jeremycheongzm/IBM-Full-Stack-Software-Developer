@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from '../node_modules/react';
-import { useDispatch } from '../node_modules/react-redux';
+import React, { useState, useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 import { addItem } from './CartSlice.jsx';
 import './ProductList.css'
 import CartItem from './CartItem';
@@ -221,7 +221,7 @@ function ProductList({ onHomeClick }) {
         padding: '15px',
         display: 'flex',
         justifyContent: 'space-between',
-        alignIems: 'center',
+        alignItems: 'center',
         fontSize: '20px',
     }
     const styleObjUl = {
@@ -304,11 +304,11 @@ function ProductList({ onHomeClick }) {
                                     <div className="product-title">{plant.name}</div> {/* Display plant name */}
                                     {/* Display other plant details like description and cost */}
                                     <div className="product-description">{plant.description}</div> {/* Display plant description */}
-                                    <div className="product-cost">${plant.cost}</div> {/* Display plant cost */}
+                                    <div className="product-cost">{plant.cost}</div> {/* Display plant cost */}
                                     <button
-                                        className="product-button"
-                                        onClick={() => handleAddToCart(plant)}
+                                        className={`product-button ${addedToCart[product.name] ? "added-to-cart" : ""}`}
                                         disabled={addedToCart[plant.name]}
+                                        onClick={() => handleAddToCart(plant)}
                                     >
                                         {addedToCart[plant.name] ? "Added to Cart" : "Add to Cart"}
                                     </button>
