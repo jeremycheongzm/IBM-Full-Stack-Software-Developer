@@ -42,15 +42,14 @@ const CartItem = ({ onContinueShopping }) => {
     );
    } else{
     dispatch(removeItem(item.name));
-    setAddedToCart((prev) => ({
-        ...prev,
-        [item.name]: false,
-    }));
+    if (onItemRemoved) {
+        onItemRemoved(item.name);
+      }
    }
   };
 
   const handleRemove = (item) => {
-    dispatch(removeItem(item));
+    dispatch(removeItem(item.name));
     if (onItemRemoved) {
         onItemRemoved(item.name);
     }

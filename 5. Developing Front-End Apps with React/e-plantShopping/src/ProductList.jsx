@@ -260,17 +260,20 @@ function ProductList({ onHomeClick }) {
 
     const handleAddToCart = (plant) => {
         dispatch(addItem(plant));
-
+        <CartItem 
+            onContinueShopping={handleContinueShopping}
+            onItemRemoved={(name) => {
+                setAddedToCart((prev) => ({
+                    ...prev,
+                    [name]: false,
+                }))
+            }}
+        />
+         
         setAddedToCart((prevState) => ({
             ...prevState,
             [plant.name]: true,
         }));
-        <CartItem onItemRemoved={(name) => {
-            setAddedToCart(prev => ({
-                ...prev,
-                [name]: false
-            }));
-        }} />
     };
     return (
         <div>
