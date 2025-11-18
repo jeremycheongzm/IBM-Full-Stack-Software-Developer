@@ -260,15 +260,6 @@ function ProductList({ onHomeClick }) {
 
     const handleAddToCart = (plant) => {
         dispatch(addItem(plant));
-        <CartItem 
-            onContinueShopping={handleContinueShopping}
-            onItemRemoved={(name) => {
-                setAddedToCart((prev) => ({
-                    ...prev,
-                    [name]: false,
-                }))
-            }}
-        />
          
         setAddedToCart((prevState) => ({
             ...prevState,
@@ -329,7 +320,15 @@ function ProductList({ onHomeClick }) {
 
                 </div>
             ) : (
-                <CartItem onContinueShopping={handleContinueShopping} />
+                <CartItem 
+                    onContinueShopping={handleContinueShopping}
+                    onItemRemoved={(name) => {
+                        setAddedToCart((prev) => ({
+                            ...prev,
+                            [name]: false,
+                        }));
+                    }}
+                />
             )}
         </div>
     );
