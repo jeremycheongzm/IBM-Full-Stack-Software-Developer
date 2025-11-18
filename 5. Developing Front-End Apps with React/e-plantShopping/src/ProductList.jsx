@@ -265,6 +265,12 @@ function ProductList({ onHomeClick }) {
             ...prevState,
             [plant.name]: true,
         }));
+        <CartItem onItemRemoved={(name) => {
+            setAddedToCart(prev => ({
+                ...prev,
+                [name]: false
+            }));
+        }} />
     };
     return (
         <div>
