@@ -258,12 +258,12 @@ function ProductList({ onHomeClick }) {
 
     const dispatch = useDispatch(); 
 
-    const handleAddToCart = (product) => {
-        dispatch(addItem(product));
+    const handleAddToCart = (plant) => {
+        dispatch(addItem(plant));
 
         setAddedToCart((prevState) => ({
             ...prevState,
-            [product.name]: true,
+            [plant.name]: true,
         }));
     };
     return (
@@ -306,7 +306,7 @@ function ProductList({ onHomeClick }) {
                                     <div className="product-description">{plant.description}</div> {/* Display plant description */}
                                     <div className="product-cost">{plant.cost}</div> {/* Display plant cost */}
                                     <button
-                                        className={`product-button ${addedToCart[product.name] ? "added-to-cart" : ""}`}
+                                        className={`product-button ${addedToCart[plant.name] ? "added-to-cart" : ""}`}
                                         disabled={addedToCart[plant.name]}
                                         onClick={() => handleAddToCart(plant)}
                                     >

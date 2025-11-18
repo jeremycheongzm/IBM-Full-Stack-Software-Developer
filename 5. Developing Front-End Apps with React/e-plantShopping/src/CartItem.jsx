@@ -42,11 +42,19 @@ const CartItem = ({ onContinueShopping }) => {
     );
    } else{
     dispatch(removeItem(item.name));
+    setAddedToCart((prev) => ({
+        ...prev,
+        [item.name]: false,
+    }));
    }
   };
 
   const handleRemove = (item) => {
     dispatch(removeItem(item.name));
+    setAddedToCart((prev) => ({
+        ...prev,
+        [item.name]: false,
+    }));
   };
 
   // Calculate total cost based on quantity for an item
