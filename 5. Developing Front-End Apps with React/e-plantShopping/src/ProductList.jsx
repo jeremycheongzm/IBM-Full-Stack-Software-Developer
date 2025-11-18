@@ -320,15 +320,7 @@ function ProductList({ onHomeClick }) {
 
                 </div>
             ) : (
-                <CartItem 
-                    onContinueShopping={handleContinueShopping}
-                    onItemRemoved={(name) => {
-                        setAddedToCart((prev) => ({
-                            ...prev,
-                            [name]: false,
-                        }));
-                    }}
-                />
+                <CartItem onContinueShopping={handleContinueShopping}/>
             )}
         </div>
     );
