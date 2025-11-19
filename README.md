@@ -23,4 +23,8 @@ Throughout the courses in the Professional Certificate, you will develop a portf
 - A database-powered application using Django ORM and Bootstrap
 - An app built using Microservices & Serverless
 - A scalable, Cloud Native Full Stack application using the technologies learned in previous courses
->>>>>>> eb83eae0bcb5e041a3bb18787b94b7424296a2d5
+
+## Links to Courses
+3. Introduction to HTML, CSS, & JavaScript (/3. Introduction to HTML, CSS, & JavaScript)
+4. Getting Started with Git and Github (/4. Getting Started with Git and Github)
+5. Developing Front-End Apps with React (/5. Developing Front-End Apps with React)
