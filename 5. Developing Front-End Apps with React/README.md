@@ -1,4 +1,5 @@
 # Final Project Overview
+Open a new tab to view website here -> [Welcome to Paradise Nursery](https://jeremycheongzm.github.io/shoppingreact/)
 ## Final Project: Paradise Nursery Shopping Application
 For your final project, you will create the front end of a "Paradise Nursery" shopping application. The application interface will allow you to browse a variety of houseplants and add them to a shopping cart. The shopping cart feature lets you see all your items and their total cost. Your shopping cart should also allow you to adjust the number of items in the cart before checkout.
 
