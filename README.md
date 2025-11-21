@@ -24,7 +24,3 @@ Throughout the courses in the Professional Certificate, you will develop a portf
 - An app built using Microservices & Serverless
 - A scalable, Cloud Native Full Stack application using the technologies learned in previous courses
 
-## Links to Courses
-- [3. Introduction to HTML, CSS, & JavaScript](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/3.%20Introduction%20to%20HTML%2C%20CSS%2C%20%26%20JavaScript)
-- [4. Getting Started with Git and Github](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/4.%20Getting%20Started%20with%20Git%20and%20GitHub)
-- [5. Developing Front-End Apps with React](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/5.%20Developing%20Front-End%20Apps%20with%20React)
