@@ -17,11 +17,11 @@ Throughout the courses in the Professional Certificate, you will develop a portf
 - [HTML pages on Cloud Object Storage](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/3.%20Introduction%20to%20HTML%2C%20CSS%2C%20%26%20JavaScript)
 - [An interest rate calculator using HTML, CSS, and JavaScript](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/4.%20Getting%20Started%20with%20Git%20and%20GitHub)
 - [A React front-end application](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/5.%20Developing%20Front-End%20Apps%20with%20React)
-- [A Node.js & Express back-end application](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/6.%20Developing%20Back-End%20Apps%20with%20Node.js%20and%20Express)
+- [A Node.js and Express back-end application](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/6.%20Developing%20Back-End%20Apps%20with%20Node.js%20and%20Express)
 - [A Flask app bundled as a package in Python](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/8.%20Developing%20AI%20Applications%20with%20Python%20and%20Flask)
 - A database-powered application using Django ORM and Bootstrap
 - A containerized guestbook app packaged with Docker deployed with Kubernetes and managed with OpenShift
-- An app built using Microservices & Serverless
+- An app built using Microservices and Serverless
 - An AI program deployed on Cloud Foundry using DevOps principles and CI/CD toolchains with a NoSQL database
 - A scalable, Cloud Native Full Stack application using the technologies learned in previous courses
 
