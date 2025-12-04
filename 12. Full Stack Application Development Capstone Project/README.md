@@ -22,3 +22,7 @@ To accomplish this, you need to add authentication and authorization, that is, u
 - Add a Login view to handle login requests.
 - Add a Logout view to handle logout requests.
 - Add a Registration view to handle Sign-up requests.
+
+## Part 3: Back End Services - Node.js Mongo DB dockerized server
+## Part 4: Dynamic Pages
+## Part 5: CI/CD, Containerize & Deploy to Kubernetes
