@@ -21,7 +21,7 @@ Throughout the courses in the Professional Certificate, you will develop a portf
 - [A Flask app bundled as a package in Python](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/8.%20Developing%20AI%20Applications%20with%20Python%20and%20Flask)
 - [A database-powered application using Django ORM and Bootstrap](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/9.%20Django%20Application%20Development%20with%20SQL%20and%20Databases)
 - [A containerized guestbook app packaged with Docker deployed with Kubernetes and managed with OpenShift](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/10.%20Introduction%20to%20Containers%20with%20Docker%2C%20Kubernetes%20%26%20OpenShift)
-- An app built using Microservices and Serverless
+- [An app built using Microservices and Serverless](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/11.%20Application%20Development%20using%20Microservices%20and%20Serverless)
+- [A scalable, Cloud Native Full Stack application using the technologies learned in previous courses](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/12.%20Full%20Stack%20Application%20Development%20Capstone%20Project)
 - An AI program deployed on Cloud Foundry using DevOps principles and CI/CD toolchains with a NoSQL database
-- A scalable, Cloud Native Full Stack application using the technologies learned in previous courses
 
