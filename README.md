@@ -23,5 +23,5 @@ Throughout the courses in the Professional Certificate, you will develop a portf
 - [A containerized guestbook app packaged with Docker deployed with Kubernetes and managed with OpenShift](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/10.%20Introduction%20to%20Containers%20with%20Docker%2C%20Kubernetes%20%26%20OpenShift)
 - [An app built using Microservices and Serverless](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/11.%20Application%20Development%20using%20Microservices%20and%20Serverless)
 - [A scalable, Cloud Native Full Stack application using the technologies learned in previous courses](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/12.%20Full%20Stack%20Application%20Development%20Capstone%20Project)
-- [A microservices-based Node.js backend with MongoDB, incorporating AI-powered services for a personalized developer learning platform]()
+- [A microservices-based Node.js backend with MongoDB, incorporating AI-powered services for a personalized developer learning platform](https://github.com/jeremycheongzm/IBM-Full-Stack-Software-Developer/tree/main/14.%20Generative%20AI%20-%20Elevate%20your%20Software%20Development%20Career)
 
